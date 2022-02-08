@@ -1,0 +1,7 @@
+At first, in Github, the virtual environment is empty. To solve that we use the action checkout
+
+The uses keyword tells the workflow to run a specific action. 
+An action is a reusable piece of code, like a function. Actions can be defined in your repository in 
+a separate file or you can use the ones available in public repositories.
+
+After checking out, we configure node as it is the environment running the project.
