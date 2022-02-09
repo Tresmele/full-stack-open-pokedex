@@ -35,3 +35,4 @@ jobs:
             heroku_email: "tresmele@gmail.com"
             healthcheck: "https://tresmele-pokemon-fullstack.herokuapp.com/health"
             checkstring: "ok"
+            rollbackonhealthcheckfailed: true
