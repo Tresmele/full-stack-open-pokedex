@@ -5,3 +5,6 @@ An action is a reusable piece of code, like a function. Actions can be defined i
 a separate file or you can use the ones available in public repositories.
 
 After checking out, we configure node as it is the environment running the project.
+
+In the deployment step to heroku, we have set up a healthcheck so that the same step ensures the app is app and running
+Furthermore, if the app crashes, rollbackonhealthcheckfailed: true will rollback to the latest functional deployment
