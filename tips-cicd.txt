@@ -8,3 +8,5 @@ After checking out, we configure node as it is the environment running the proje
 
 In the deployment step to heroku, we have set up a healthcheck so that the same step ensures the app is app and running
 Furthermore, if the app crashes, rollbackonhealthcheckfailed: true will rollback to the latest functional deployment
+
+IMPORTANT: by adding if (push) to the step we avoid, for exasmple, deploying the code when someone creates a pull request to the master branch (and just when that pull request is merged)
